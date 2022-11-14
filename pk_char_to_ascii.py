@@ -12,7 +12,6 @@ def main():
     
     try:
         char_map = json.loads(map_gen.gen(modes[selected]))
-        print(char_map)
     except:
         print("Could not load map char")
 
