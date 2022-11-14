@@ -2,7 +2,8 @@
 I was stunned to not have found something like this, so I coded a pokemon word decoder in python
 
 
-The concept is simple, every character map is a csv file divided by \t chars
+The concept is simple, every character map is a csv file divided by \t chars.
+
 For now I've only implemented FireRed International map but adding more should be pretty straight forward.
 
 This project was developed in about 2-3hours so it probably has a lot of room for improvements, please feel free to submit pull-requests
