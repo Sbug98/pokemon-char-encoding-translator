@@ -14,7 +14,7 @@ This project was developed in about 2-3hours so it probably has a lot of room fo
   - Insert the encoded bytes in hex (all of the 10 bytes are required)
 
 ## Possibile new features:
-  1. Move the csv files in a directory and generate selector array dinamically
+  1. Move the csv files in a directory and generate selector array dynamically
   2. Implement a more stable way to select languages and edge cases for pokemon games encodings 
   3. Clean user input to ensure there are no white spaces
   
