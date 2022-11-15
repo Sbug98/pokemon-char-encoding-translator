@@ -12,12 +12,12 @@ def gen(name):
         line = char_map[i]
         line_chars = line.split("\t")
         res += '"'
-        first_hex_cipher = clean_hex(hex(i))+"-"
+        first_hex_cipher = clean_hex(hex(i))
         res += first_hex_cipher + '": {'
         for j in range(16):
             ascii_char = line_chars[j].replace("\n", "")
             res += '"'
-            second_hex_cipher = "-"+clean_hex(hex(j))
+            second_hex_cipher = clean_hex(hex(j))
             if ascii_char == '"':
                 ascii_char = '\"'
             res += second_hex_cipher+'": "'+ascii_char+'", '
