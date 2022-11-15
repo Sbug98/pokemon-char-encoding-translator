@@ -2,7 +2,8 @@
 I was stunned to not have found something like this, so I coded a pokemon word decoder in python
 
 
-The concept is simple, every character map is a csv file divided by \t chars.
+The concept is simple, every character map is a csv file divided by \t chars. 
+Every csv *MUST* have 16 rows and 16 columns to create a 16*16 matrix and complete the FF values map
 
 For now I've only implemented FireRed International map but adding more should be pretty straight forward.
 
